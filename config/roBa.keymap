@@ -75,14 +75,18 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
-//マウススクロールを追加
+
+        //マウススクロールを追加
+
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
         };
-//ここまで
+
+        //ここまで
     };
 
     keymap {
@@ -106,6 +110,8 @@
 &trans          &trans          &trans           &trans  &trans  &trans      &trans  &kp F1  &kp F2  &kp F3  &trans   &trans
 &trans          &trans          &trans           &trans  &trans  &trans      &trans  &trans                           &trans
             >;
+
+            sensor-bindings = <&scroll_up_down>;
         };
 
         NUM {
