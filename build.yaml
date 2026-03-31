@@ -26,4 +26,3 @@ include:
    snippet: zmk-split-battery
  - board: seeeduino_xiao_ble
    shield: settings_reset
-   snippet: zmk-split-battery
