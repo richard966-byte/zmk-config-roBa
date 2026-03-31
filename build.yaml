@@ -23,6 +23,7 @@ include:
    snippet: studio-rpc-usb-uart zmk-split-battery
  - board: seeeduino_xiao_ble
    shield: roBa_L
+   snippet: zmk-split-battery
  - board: seeeduino_xiao_ble
    shield: settings_reset
    snippet: zmk-split-battery
