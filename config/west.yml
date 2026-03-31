@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: kumamuk-git
       url-base: https://github.com/kumamuk-git
+   - name: moergo-sc
+      url-base: https://github.com/moergo-sc # 追加 
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -12,5 +14,8 @@ manifest:
     - name: zmk-pmw3610-driver
       remote: kumamuk-git
       revision: main
+    - name: zmk-split-battery
+      remote: moergo-sc
+      revision: main # 追加
   self:
     path: config
