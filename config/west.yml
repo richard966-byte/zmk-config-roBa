@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: kumamuk-git
       url-base: https://github.com/kumamuk-git
-   - name: moergo-sc
+    - name: moergo-sc
       url-base: https://github.com/moergo-sc
   projects:
     - name: zmk
