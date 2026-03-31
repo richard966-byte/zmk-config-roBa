@@ -5,7 +5,7 @@ manifest:
     - name: kumamuk-git
       url-base: https://github.com/kumamuk-git
    - name: moergo-sc
-      url-base: https://github.com/moergo-sc # 追加 
+      url-base: https://github.com/moergo-sc
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -16,6 +16,6 @@ manifest:
       revision: main
     - name: zmk-split-battery
       remote: moergo-sc
-      revision: main # 追加
+      revision: main
   self:
     path: config
