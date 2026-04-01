@@ -101,10 +101,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                          &kp T                                                    &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                          &kp G        &mkp MB3                  &kp AT_SIGN       &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                          &kp B        &kp ESCAPE                &kp BACKSPACE     &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &lt 0 INT_HENKAN  &lt 0 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R                          &kp T                                                              &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F                          &kp G        &mkp MB3                  &kp AT_SIGN                 &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                          &kp B        &kp ESCAPE                &mt LEFT_SHIFT INT_HENKAN   &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &mt LEFT_CONTROL BACKSPACE  &lt 0 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&new_behavior>;
