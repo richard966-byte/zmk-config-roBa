@@ -85,6 +85,7 @@
 
             tap-ms = <20>;
         };
+
         //ここまで
     };
 
@@ -154,7 +155,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&new_behavior>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_6 {
