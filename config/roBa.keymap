@@ -105,13 +105,13 @@
 
         FUNCTION {
             bindings = <
-&trans          &kp UP_ARROW    &trans           &trans  &trans                      &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans      &trans  &kp F4  &kp F5  &kp F6  &trans   &kp F12
-&trans          &trans          &trans           &trans  &trans  &trans      &trans  &kp F1  &kp F2  &kp F3  &trans   &trans
-&trans          &trans          &trans           &trans  &trans  &trans      &trans  &trans                           &trans
+&trans          &kp UP_ARROW    &trans           &trans  &trans                          &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &kp C_MUTE      &trans  &kp F4  &kp F5  &kp F6  &trans   &kp F12
+&trans          &trans          &trans           &trans  &trans  &trans          &trans  &kp F1  &kp F2  &kp F3  &trans   &trans
+&trans          &trans          &trans           &trans  &trans  &trans          &trans  &trans                           &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>;
         };
 
         NUM {
@@ -138,10 +138,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                        &trans    &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans    &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans    &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &mkp MB4  &mkp MB5                                &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB5  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
