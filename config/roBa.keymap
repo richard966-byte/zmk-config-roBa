@@ -77,7 +77,6 @@
         };
 
         //マウススクロールを追加
-
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
@@ -85,7 +84,13 @@
 
             tap-ms = <20>;
         };
-
+        // スナイプモードをトリガーするためのカスタムキー
+        snipe: snipe_mode {
+            compatible = "zmk,behavior-mouse-key-press";
+            #binding-cells = <1>;
+            bindings = <&kp>;
+            // ドライバが SNIPE_BIT を監視している場合、特定のUsageを割り当てる
+        };
         //ここまで
     };
 
