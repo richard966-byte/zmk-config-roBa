@@ -142,7 +142,7 @@
             bindings = <
 &trans  &trans  &trans  &trans      &trans                           &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &kp C_SLOW  &trans       &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans      &trans       &trans      &trans  &trans  &mkp MB4  &mkp MB5  &mo 5     &trans
+&trans  &trans  &trans  &trans      &trans       &trans      &trans  &trans  &mkp MB4  &mkp MB5  &mo 6     &trans
 &trans  &trans  &trans  &mo 5       &kp C_SLOW2  &trans      &trans  &trans                                &trans
             >;
 
