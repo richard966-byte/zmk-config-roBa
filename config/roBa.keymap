@@ -94,6 +94,13 @@
             layers = <0>;
             require-prior-idle-ms = <150>;
         };
+
+        Scroll {
+            bindings = <&mo 6>;
+            key-positions = <32 33>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
     };
 
     macros {
