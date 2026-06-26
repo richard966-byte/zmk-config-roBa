@@ -66,7 +66,7 @@
             bindings = <&mkp LCLK>;
             key-positions = <18 19>;
             require-prior-idle-ms = <150>;
-　　　　　　　layers = <0>;
+            layers = <0>;
         };
 
         RCLK {
