@@ -4,8 +4,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-
 #undef ZMK_POINTING_DEFAULT_SCRL_VAL
+
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 &mt {
@@ -14,7 +14,8 @@
 };
 
 &trackball {
-//    automouse-layer = <4>;
+    //    automouse-layer = <4>;
+
     scroll-layers = <6>;
 };
 
@@ -62,42 +63,42 @@
             require-prior-idle-ms = <150>;
         };
 
-        LCLK {
+        lclk {
             bindings = <&mkp LCLK>;
             key-positions = <18 19>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
 
-        RCLK {
+        rclk {
             bindings = <&mkp RCLK>;
             key-positions = <19 20>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
 
-        MCLK {
+        mclk {
             bindings = <&mkp MCLK>;
             key-positions = <18 20>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
 
-        MB4 {
+        mb4 {
             bindings = <&mkp MB4>;
             key-positions = <30 31>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
 
-        MB5 {
+        mb5 {
             bindings = <&mkp MB5>;
             key-positions = <31 32>;
             layers = <0>;
             require-prior-idle-ms = <150>;
         };
 
-        Scroll {
+        scrall {
             bindings = <&mo 6>;
             key-positions = <32 33>;
             require-prior-idle-ms = <150>;
