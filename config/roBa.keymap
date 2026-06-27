@@ -45,18 +45,6 @@
             require-prior-idle-ms = <150>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-            require-prior-idle-ms = <150>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-            require-prior-idle-ms = <150>;
-        };
-
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
